@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-
 import Home from './Pages/Home';
 import About from './Pages/About';
+import NavBar from './Components/Navigation/NavBar';
+import { Navbar } from 'reactstrap';
 
 const Routing = () => {
   const signedOutRoutes = [
@@ -21,6 +22,9 @@ const Routing = () => {
                 exact
                 path={path}
                 component={Component}
+                render={props => (
+                   <NavBar/>
+                )}
               />
             );
           }

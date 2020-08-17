@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-
+import NavBar from "../Components/Navigation/NavBar";
 const Home = () => {
   return (
     <Container>

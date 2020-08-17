@@ -7,7 +7,8 @@ import Routing from './Routing';
 const App = () => {
   return (
     <div>
-      <Routing/>
+      <Routing />
+      
     </div>
   );
 }
