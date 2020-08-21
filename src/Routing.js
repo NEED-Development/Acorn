@@ -13,23 +13,13 @@ const Routing = () => {
 
   return (
     <Router>
+      <NavBar />
       <Switch>
-        {signedOutRoutes.map(
-          ({Component, path}, index) => {
-            return (
-              <Route
-                key={index}
-                exact
-                path={path}
-                component={Component}
-                render={props => (
-                   <NavBar/>
-                )}
-              />
-            );
-          }
-        )}
-        <Redirect  to='/'/>
+        {signedOutRoutes.map(({ Component, path }, index) => {
+          return  (
+            <Route key = { index } exact path = { path } component = { Component } />);
+        })}
+        <Redirect to="/" />
       </Switch>
     </Router>
   );

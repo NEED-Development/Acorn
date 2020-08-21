@@ -5,13 +5,6 @@
   width: 100%;
   z-index: 4;
 }
-.navbar-brand {
-  font-size: 18px;
-  /* padding-left: 30px;
-  padding-right: 30px;
-  display: inline; */
-}
-
 .nav-item a{ 
   font-size: 18px;
   color: white !important;
