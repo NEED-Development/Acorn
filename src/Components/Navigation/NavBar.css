@@ -1,0 +1,27 @@
+.nav-bar {
+  color: white;
+  font-size: 25px;
+  background-color:rgb(0,73,83);
+  width: 100%;
+  z-index: 4;
+  align-items: center;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.navbrand {
+  padding: 15px;
+}
+
+.nav-item a {
+  font-size: 22px;
+  color: white !important;
+  fill: white;
+  text-decoration: none;
+  padding: 0 30px;
+  float: right;
+}
+
+.nav-item {
+  display: inline;
+}
