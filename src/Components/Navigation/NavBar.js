@@ -8,6 +8,7 @@ export default function NavBar(props) {
     { title: "About", path: "/about" },
     { title: "Home", path: "/" },
   ];
+  
   return (
     <Navbar className="nav-bar">
       <NavbarBrand className="navbrand">NEED</NavbarBrand>
