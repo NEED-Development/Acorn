@@ -5,7 +5,10 @@ import './Home.css';
 const Home = () => {
   return (
     <Container fluid>
-      <img src="https://www.solidbackgrounds.com/images/website/950x534/950x534-little-green-leaves-free-website-background-image.jpg"></img>
+      <img
+        src='https://www.solidbackgrounds.com/images/website/950x534/950x534-little-green-leaves-free-website-background-image.jpg'
+        alt=''
+      />
       <h1>Home</h1>
       <p>You are the best :'D</p>
     </Container>
